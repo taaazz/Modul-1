@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CodeLab</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <h1>Form Pendaftaran</h1>
+    <form>
+      <legend>Lengkapi data di bawah ini</legend>
+      <form action="contact.php" method="POST">
+        
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" />
+        </p>
+        <p>
+          <label>NIM:</label>
+          <input type="number" name="nim" />
+      </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <textarea rows="5" cols="21"></textarea>
+        </p>
+        <button type="submit" id="submit">Simpan</button>
+      
+    </form>
+    <br>
+
+<section>
+  <table >
+    <tr>
+      <th>No</th>
+      <th>Nama</th>
+      <th>NIM</th>
+      <th>Alamat</th>
+      
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Tazkia Damayanti</td>
+      <td>202110370311090</td>
+      <td>Jl. Ulil Abshor No.69</td>
+    </tr>
+
+    
+  </table>
+</section>
+
+  </body>
 </html>
