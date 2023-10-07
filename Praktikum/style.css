@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+
+.custom-btn-SIGNUP {
+  display: flex;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 35px;
+  font-size: 80%;
+}
+
+.custom-btn-LOGIN {
+  display: flex;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #6b86ed;
+  width: 120px;
+  height: 35px;
+  font-size: 80%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(aseset/hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 2rem;
+}
+
+.home .content {
+  max-width: 50rem;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  line-height: 0.5;
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  color: rgb(254, 254, 254);
+}
+
+/* style footer */
+.col-lg-3 h5 {
+  letter-spacing: 2px;
+  color: #8f8f8f;
+}
+
+.list-unstyled li {
+  list-style: none;
+}
+
+.list-unstyled .mb-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .custom-btn-SIGNUP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    width: 120px;
+    height: 35px;
+    font-size: 80%;
+  }
+}

@@ -1,11 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iLab</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="aseset/logo-ilab.png" alt="logo" width="100" height="50" />,
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 d-flex justify-content-center">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              style="margin-right: 30px"
+              href="#"
+              >HOME</a
+            >
+            <a class="nav-link" style="margin-right: 30px" href="#">ABOUT US</a>
+            <a class="nav-link" href="#">CONTACT US</a>
+          </div>
+
+          <button
+            type="button"
+            class="btn custom-btn-SIGNUP border-black"
+            style="margin-right: 10px"
+          >
+            SIGN UP
+          </button>
+          <button type="button" class="btn custom-btn-LOGIN">LOG IN</button>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Selamat Datang</h3>
+        <p>Di Website Praktikum Pemrograman Website</p>
+        <!-- <a href="#" class="btn"></a> -->
+      </div>
+    </section>
+    <!-- end home section -->
+
+    <!-- section footer -->
+    <div class="container my-5">
+      <footer >
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <img src="aseset/logo-ilab.png" width="150" height="70" />
+              </h5>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="mb-3">
+                Home
+              </h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1">
+                  <a href="#">Email Marketing</a>
+                </li>
+                <li class="mb-1" >
+                  <a href="#" >Campaign</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#">Branding</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#">Offline</a>
+                </li>
+              </ul>
+            </div>
+           
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="mb-3">
+                About
+              </h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1">
+                  <a href="#">Our Story</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#">Benefit</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#">Team</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
     
-</body>
+            </div>
+            
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="mb-3">
+                Follow Us
+              </h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1">
+                  <a href="#"><img src="aseset/logo-facebook.png" width="10" height="20" style="margin-right: 18px;">Facebook</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#"><img src="aseset/logo-twitter.png" width="20" height="20" style="margin-right: 8px;">Twitter</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#"><img src="aseset/logo-instagram.png" width="20" height="20" style="margin-right: 11px;">Instagram</a>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        <div class="row" style="text-align: text-center p-1">
+         Copyright &copy 2023. Pemrograman Web  
+        </div>
+
+      </footer>
+    </div>
+    <!-- end footer section -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
